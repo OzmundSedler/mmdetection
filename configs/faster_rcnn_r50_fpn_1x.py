@@ -99,8 +99,8 @@ test_cfg = dict(
     # e.g., nms=dict(type='soft_nms', iou_thr=0.5, min_score=0.05)
 )
 # dataset settings
-dataset_type = 'VOCDataset'
-data_root = '/content/mmdetection_object_detection_demo/data/'
+dataset_type = 'MyDataset'
+data_root = '/content/data/'
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
 train_pipeline = [
@@ -167,7 +167,7 @@ log_config = dict(
     ])
 # yapf:enable
 # runtime settings
-total_epochs = 10 #
+total_epochs = 10 # #
 dist_params = dict(backend='nccl')
 log_level = 'INFO'
 work_dir = './work_dirs/faster_rcnn_r50_fpn_1x'
