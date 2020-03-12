@@ -122,7 +122,7 @@ log_config = dict(
     ])
 # yapf:enable
 # runtime settings
-total_epochs = 10 #
+total_epochs = 1 #
 dist_params = dict(backend='nccl')
 log_level = 'INFO'
 work_dir = './work_dirs/retinanet_r50_fpn_1x'
