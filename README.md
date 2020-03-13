@@ -43,7 +43,8 @@ I'm not a CS student, and all of my background is in Econ and Operations Managem
 All the instructions can be found in the Google Colab Notebook. Please don't hesitate to contact me if you have any questions.
 
 ## Performance (to be updated) 
-![](precision-recall_faster_rcnn.jpg)
+![](precision-recall_faster_rcnn.JPG)
+
 ![](training_performance.png)
 ![](AUC.png)
 ![](f_measure.jpg)
