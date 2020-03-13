@@ -45,8 +45,13 @@ All the instructions can be found in the Google Colab Notebook. Please don't hes
 ## Performance (Example from Faster-RCNN with 25 training epochs) 
 ![Exhibit 1. Precision-Recall Table](precision-recall_faster_rcnn.JPG)
 
+
 ![Exhibit 2. Performance in Training](training_performance.png)
+
+
 ![Exhibit 3. AUC Graph](AUC.png)
+
+
 ![Exhibit 4. F-Measure Graph](f_measure.jpg)
 
 
@@ -56,7 +61,11 @@ All the instructions can be found in the Google Colab Notebook. Please don't hes
 ![](0009.jpg)
 
 ![Exhibit 5. Precise Identification at Angle](prediction.png)
+
+
 ![Exhibit 6. Correct Identification of a Puppy's Breed](prediction_1.png)
+
+
 
 
 
