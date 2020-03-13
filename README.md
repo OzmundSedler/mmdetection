@@ -13,7 +13,7 @@ I'm not a CS student, and all of my background is in Econ and Operations Managem
 
 **Key Advantages:**
 
- **Modular Design**
+ - **Modular Design**
 
   We decompose the detection framework into different components and one can easily construct a customized object detection framework by combining different modules.
 
