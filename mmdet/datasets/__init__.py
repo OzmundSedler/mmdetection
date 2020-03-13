@@ -8,11 +8,18 @@ from .registry import DATASETS
 from .voc import VOCDataset
 from .wider_face import WIDERFaceDataset
 from .xml_style import XMLDataset
+<<<<<<< HEAD
 from .my_dataset import MyDataset
+=======
+>>>>>>> parent of 07bd37d... [update_dataset_docs]
 
 __all__ = [
     'CustomDataset', 'XMLDataset', 'CocoDataset', 'VOCDataset',
     'CityscapesDataset', 'GroupSampler', 'DistributedGroupSampler',
     'build_dataloader', 'ConcatDataset', 'RepeatDataset', 'WIDERFaceDataset',
+<<<<<<< HEAD
     'DATASETS', 'build_dataset',"MyDataset"
+=======
+    'DATASETS', 'build_dataset'
+>>>>>>> parent of 07bd37d... [update_dataset_docs]
 ]
