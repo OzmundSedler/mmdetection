@@ -38,15 +38,24 @@ I'm not a CS student, and all of my background is in Econ and Operations Managem
 
 ## Installation and Usage
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)] (link to github ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)] (https://colab.research.google.com/github/maxyakovlevclone/mmdetection/blob/master/mmdetection_pets.ipynb)
 
 All the instructions can be found in the Google Colab Notebook. Please don't hesitate to contact me if you have any questions.
 
 ## Performance (to be updated) 
+![](precision-recall_faster_rcnn.jpg)
+![](training_performance.png)
+![](AUC.png)
+![](f_measure.jpg)
+
+
 
 ![](0008.jpg)
 
 ![](0009.jpg)
+
+![](prediction.png)
+![](prediction_1.png)
 
 
 
