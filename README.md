@@ -40,6 +40,8 @@ I'm not a CS student, and all of my background is in Econ and Operations Managem
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)] (https://colab.research.google.com/github/maxyakovlevclone/mmdetection/blob/master/mmdetection_pets.ipynb)
 
+**Note**: Preset Runtime Settings to GPU instead of CPU in Google Colab.
+
 All the instructions can be found in the Google Colab Notebook. Please don't hesitate to contact me if you have any questions.
 
 ## Performance (Example from Faster-RCNN with 25 training epochs) 
