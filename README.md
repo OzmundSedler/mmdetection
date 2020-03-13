@@ -49,10 +49,8 @@ All the instructions can be found in the Google Colab Notebook. Please don't hes
 ![Exhibit 2. Performance in Training](training_performance.png)
 
 
-![Exhibit 3. AUC Graph](AUC.png)
+![Exhibit 3. AUC and F-Measure Graph](AUC.png)
 
-
-![Exhibit 4. F-Measure Graph](f_measure.jpg)
 
 
 
