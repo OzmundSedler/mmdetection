@@ -42,7 +42,7 @@ I'm not a CS student, and all of my background is in Econ and Operations Managem
 
 All the instructions can be found in the Google Colab Notebook. Please don't hesitate to contact me if you have any questions.
 
-## Performance (to be updated) 
+## Performance (Example from Faster-RCNN with 25 training epochs) 
 ![](precision-recall_faster_rcnn.JPG)
 
 ![](training_performance.png)
