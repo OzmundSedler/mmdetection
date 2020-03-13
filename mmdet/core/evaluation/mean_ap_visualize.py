@@ -262,7 +262,7 @@ def map_roc_pr(det_results,
     recall_list = []
     precision_list = []
     ap_list = []
-    for i in range(num_classes):
+    for i in range(5):
         # get gt and det bboxes of this class
         cls_dets, cls_gts, cls_gt_ignore = get_cls_results(
             det_results, gt_bboxes, gt_labels, gt_ignore, i)
@@ -333,11 +333,48 @@ def map_roc_pr(det_results,
         f_measure = np.mean(2*(top/down))
         f_measure_list.append(f_measure)
 
-    label_names = get_classes(dataset) 
+    label_names =  ['abyssinian',
+ 'american_bulldog',
+ 'american_pit_bull_terrier',
+ 'basset',
+ 'beagle',
+ 'bengal',
+ 'birman',
+ 'bombay',
+ 'boxer',
+ 'british_shorthair',
+ 'chihuahua',
+ 'egyptian',
+ 'english_cocker',
+ 'english_setter',
+ 'german_shorthaired',
+ 'great_pyrenees',
+ 'havanese',
+ 'japanese_chin',
+ 'keeshond',
+ 'leonberger',
+ 'maine_coon',
+ 'miniature_pinscher',
+ 'newfoundland',
+ 'persian',
+ 'pomeranian',
+ 'pug',
+ 'ragdoll',
+ 'russian_blue',
+ 'saint_bernard',
+ 'samoyed',
+ 'scottish_terrier',
+ 'shiba_inu',
+ 'siamese',
+ 'sphynx',
+ 'staffordshire',
+ 'wheaten_terrier',
+ 'yorkshire_terrier']
+
     #------------plot PR / F-measure-----------#
     plt.figure(figsize=(6, 10))
     #------------plot curve--------------------#
-    for i in range(num_classes):
+    for i in range(5):
         plt.subplots_adjust(hspace=0.3)
         plt.subplot(211)
         plt.plot(recall_list[i], precision_list[i], linewidth=2, \
@@ -354,7 +391,7 @@ def map_roc_pr(det_results,
         for a, b in zip(label_names, f_measure_list):
             plt.text(a, b, '%.4f' % b, color='black', fontweight='bold') 
         
-    plt.savefig('/mmdetection/PR_Curve_each_class.png')
+    plt.savefig('/content/mmdetection/work_dirs/'+'_curves.png')
  
     if scale_ranges is not None:
         # shape (num_classes, num_scales)

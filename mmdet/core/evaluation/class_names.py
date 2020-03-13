@@ -89,13 +89,53 @@ def cityscapes_classes():
     ]
 
 
+def MyDataset_classes():
+    return ['abyssinian',
+ 'american_bulldog',
+ 'american_pit_bull_terrier',
+ 'basset',
+ 'beagle',
+ 'bengal',
+ 'birman',
+ 'bombay',
+ 'boxer',
+ 'british_shorthair',
+ 'chihuahua',
+ 'egyptian',
+ 'english_cocker',
+ 'english_setter',
+ 'german_shorthaired',
+ 'great_pyrenees',
+ 'havanese',
+ 'japanese_chin',
+ 'keeshond',
+ 'leonberger',
+ 'maine_coon',
+ 'miniature_pinscher',
+ 'newfoundland',
+ 'persian',
+ 'pomeranian',
+ 'pug',
+ 'ragdoll',
+ 'russian_blue',
+ 'saint_bernard',
+ 'samoyed',
+ 'scottish_terrier',
+ 'shiba_inu',
+ 'siamese',
+ 'sphynx',
+ 'staffordshire',
+ 'wheaten_terrier',
+ 'yorkshire_terrier']
+
 dataset_aliases = {
     'voc': ['voc', 'pascal_voc', 'voc07', 'voc12'],
     'imagenet_det': ['det', 'imagenet_det', 'ilsvrc_det'],
     'imagenet_vid': ['vid', 'imagenet_vid', 'ilsvrc_vid'],
     'coco': ['coco', 'mscoco', 'ms_coco'],
     'wider_face': ['WIDERFaceDataset', 'wider_face', 'WDIERFace'],
-    'cityscapes': ['cityscapes']
+    'cityscapes': ['cityscapes'],
+    'MyDataset': ['MyDataset']
 }
 
 
