@@ -3,18 +3,16 @@
 ## Disclaimer
 I'm not a CS student, and all of my background is in Econ and Operations Management. Please don't judge harshly if something is not at the level of complexity you expected, it's my first experience with Deep Learning.
 
-## Problem Statement
-
 ![](0002.jpg)
 
-**Solution**: breed identification using object detection
+### **Solution**: breed identification using object detection
 
 ![](0003.jpg)
 
-## MMDetection: Key Features
 ![](0004.jpg)
 
-**Key Advantages:** 
+**Key Advantages:**
+
  **Modular Design**
 
   We decompose the detection framework into different components and one can easily construct a customized object detection framework by combining different modules.
@@ -30,33 +28,25 @@ I'm not a CS student, and all of my background is in Econ and Operations Managem
  **State of the art**
 
   The toolbox stems from the codebase developed by the *MMDet* team, who won [COCO Detection Challenge](http://cocodataset.org/#detection-leaderboard) in 2018, and we keep pushing it forward.
-
-## Dataset Used
+  
 
 ![](0006.jpg)
 
-**Note: good dataset with balanced classes.**
-
-## Models Used 
-
+### **Note: good dataset with balanced classes.**
+ 
 ![](0005.jpg)
 
 ## Installation and Usage
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)] (link to github ipynb)
 
-All the instructions can be found in the Google Colab Notebook.
+All the instructions can be found in the Google Colab Notebook. Please don't hesitate to contact me if you have any questions.
 
 ## Performance (to be updated) 
 
-## Complications
-
 ![](0008.jpg)
 
-## Next Steps
-
 ![](0009.jpg)
-
 
 
 
