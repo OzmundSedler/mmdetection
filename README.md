@@ -5,6 +5,7 @@ I'm not a CS student, and all of my background is in Econ and Operations Managem
 
 ## Input/Output
 **Input**: Cat/Dog image
+
 **Output**: annotated image of a cat or a dog with a predicted breed and a likelihood score
 
 ## Deliverables
