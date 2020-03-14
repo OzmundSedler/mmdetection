@@ -40,7 +40,7 @@ I'm not a CS student, and all of my background is in Econ and Operations Managem
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)] (https://colab.research.google.com/github/maxyakovlevclone/mmdetection/blob/master/mmdetection_pets.ipynb)
 
-### **Note**: Preset Runtime Settings to GPU instead of CPU in Google Colab. Also please follow the instructions for adjusting the number of training epochs and choosing the model.
+### **Note**: Preset Runtime Settings to GPU instead of CPU in the Google Colab. Also please follow the instructions for adjusting the number of training epochs and choosing the model.
 
 All the instructions can be found in the Google Colab Notebook. Please don't hesitate to contact me if you have any questions.
 
