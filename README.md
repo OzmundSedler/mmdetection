@@ -9,7 +9,7 @@ I'm not a CS student, and all of my background is in Econ and Operations Managem
 **Output**: annotated image of a cat or a dog with a predicted breed and a likelihood score
 
 ## Deliverables
- - Preprocessed annotated data after sorting and cleaning
+ - Preprocessed annotated data after sorting and cleaning (available from the Dropbox link or upon request)
  - Google Colab Notebook with all the instructions and results for demonstration purposes
  - Code for reconfiguring pre-existing models
  - Code for visualizing the performance evaluation 
